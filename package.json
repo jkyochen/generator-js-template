@@ -1,6 +1,6 @@
 {
   "name": "generator-js-template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Yeoman for JavaScript",
   "homepage": "",
   "author": {
@@ -17,7 +17,10 @@
     "pre-commit": "lint-staged"
   },
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "formatter",
+    "linter",
+    "git-hooks"
   ],
   "dependencies": {
     "yeoman-generator": "^5.8.0"
