@@ -9,12 +9,12 @@ module.exports = class extends Generator {
 
 	writing() {
 		this.fs.copy(
-			[
-				this.templatePath("."),
-				this.templatePath(".husky"),
-				this.templatePath(".gitignore"),
-			],
+			[this.templatePath("."), this.templatePath(".husky")],
 			this.destinationPath("."),
+		);
+		this.fs.copy(
+			this.templatePath(".gitignore.copy"),
+			this.destinationPath(".gitignore"),
 		);
 	}
 };
