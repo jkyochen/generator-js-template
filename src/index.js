@@ -8,6 +8,13 @@ module.exports = class extends Generator {
 	}
 
 	writing() {
-		this.fs.copy(this.templatePath("."), this.destinationPath("."));
+		this.fs.copy(
+			[
+				this.templatePath("."),
+				this.templatePath(".husky"),
+				this.templatePath(".gitignore"),
+			],
+			this.destinationPath("."),
+		);
 	}
 };
