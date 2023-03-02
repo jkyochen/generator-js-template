@@ -14,3 +14,10 @@
 npm install generator-js-template -g
 yo js-template
 ```
+
+## Fail Check
+
+```
+yo doctor
+DEBUG=yeoman:* yo js-template
+```
