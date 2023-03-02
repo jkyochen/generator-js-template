@@ -1,7 +1,7 @@
 {
   "name": "generator-js-template",
   "version": "0.0.10",
-  "description": " Yeoman for JavaScript project best practices ",
+  "description": "Yeoman generator for JavaScript project best practices",
   "homepage": "",
   "author": {
     "name": "Lanlyhs"
