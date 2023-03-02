@@ -1,23 +1,22 @@
 
-[![npm version](https://badge.fury.io/js/generator-js-template.svg)](https://www.npmjs.com/package/generator-js-template)
+# Yeoman generator for JavaScript project
 
-# generator-js-template
+- [x] Add git-hooks
+- [x] Add formatter rome
+- [x] Add linter rome
+- [x] Add jest
+- [ ] Support TypeScript
 
-1. Add git-hooks
-2. Add formatter
-3. Add linter
-4. Add jest
+## Quick Start
 
-## Quick start
-
-```
+```sh
 npm install generator-js-template -g
 yo js-template
 ```
 
 ## Fail Check
 
-```
+```sh
 yo doctor
 DEBUG=yeoman:* yo js-template
 ```
