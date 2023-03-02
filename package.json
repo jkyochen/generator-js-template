@@ -1,15 +1,15 @@
 {
   "name": "generator-js-template",
-  "version": "0.0.7",
+  "version": "0.0.10",
   "description": " Yeoman for JavaScript project best practices ",
   "homepage": "",
   "author": {
     "name": "Lanlyhs"
   },
   "files": [
-    "src/**/*"
+    "generators"
   ],
-  "main": "src/index.js",
+  "main": "generators/index.js",
   "scripts": {
     "format": "rome check --apply-suggested . && rome format --write .",
     "test": "jest",
