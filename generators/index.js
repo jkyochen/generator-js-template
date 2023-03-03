@@ -27,8 +27,16 @@ module.exports = class extends Generator {
 	writing() {
 		if (this.answers.isNeedTypeScript) {
 			this.fs.copy(this.templatePath("ts"), this.destinationPath("."));
+			this.fs.copy(
+				this.templatePath("ts/.package.json"),
+				this.destinationPath("."),
+			);
 		} else {
 			this.fs.copy(this.templatePath("js"), this.destinationPath("."));
+			this.fs.copy(
+				this.templatePath("js/.package.json"),
+				this.destinationPath("."),
+			);
 		}
 		this.fs.copy(this.templatePath(".husky"), this.destinationPath(".husky"));
 		this.fs.copy(

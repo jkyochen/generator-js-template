@@ -14,9 +14,9 @@
     "license": "ISC",
     "devDependencies": {
         "husky": "^8.0.3",
-        "jest": "^29.3.1",
-        "lint-staged": "^13.1.0",
-        "rome": "^10.0.1"
+        "jest": "^29.4.3",
+        "lint-staged": "^13.1.2",
+        "rome": "^11.0.0"
     },
     "lint-staged": {
         "*.{ts,js,json}": [
