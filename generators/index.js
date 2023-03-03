@@ -29,13 +29,13 @@ module.exports = class extends Generator {
 			this.fs.copy(this.templatePath("ts"), this.destinationPath("."));
 			this.fs.copy(
 				this.templatePath("ts/.package.json"),
-				this.destinationPath("."),
+				this.destinationPath("package.json"),
 			);
 		} else {
 			this.fs.copy(this.templatePath("js"), this.destinationPath("."));
 			this.fs.copy(
 				this.templatePath("js/.package.json"),
-				this.destinationPath("."),
+				this.destinationPath("package.json"),
 			);
 		}
 		this.fs.copy(this.templatePath(".husky"), this.destinationPath(".husky"));
