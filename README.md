@@ -1,11 +1,11 @@
 
 # Yeoman generator for JavaScript project
 
-- [x] Add git-hooks
+- [x] Add git hooks
 - [x] Add formatter rome
 - [x] Add linter rome
 - [x] Add jest
-- [ ] Support TypeScript
+- [x] Support TypeScript
 
 ## Quick Start
 
